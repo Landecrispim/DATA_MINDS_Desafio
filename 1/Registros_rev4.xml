@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<EnvoHstCrd> 
+    <cliente id = "foi">
+    <CnpjIf>Cnpj da Fonte</CnpjIf>
+    <DtRms>DataRemessa</DtRms>   
+    <IdfcCli>Identificacao</IdfcCli>
+    <NrUnco>NumeroUnico</NrUnco>
+    <DtCtrc>10.01.2019</DtCtrc>
+    <DtAprc>DataApuracao</DtAprc>
+    <CdMdld>Modalidade</CdMdld>
+    <InPreFix>true</InPreFix>
+    <DtVnctUltPcl>10.02.2021</DtVnctUltPcl>
+    <VlCtrdFut>30000.00</VlCtrdFut>
+    <QtPcl>25</QtPcl>
+    <DtVnctPclAnt>10.02.2019</DtVnctPclAnt>
+    <VlPclAnt>1200.00</VlPclAnt>
+    <DtPgtoPclAnt>09.02.2019</DtPgtoPclAnt>
+    <VlPgtoPclAnt>1200.00</VlPgtoPclAnt>
+    <DtVnctPrxPcl>10.03.2019</DtVnctPrxPcl>
+    <VlPrxPcl>1200.00</VlPrxPcl>
+    <QtPclVncr>24</QtPclVncr>
+    <QtPclPgr>QuantidadeParcelasAPagar</QtPclPgr>
+    </cliente>
+</EnvoHstCrd>
