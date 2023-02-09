@@ -11,24 +11,24 @@
             <CdMdld>Modalidade</CdMdld>
             <DetOpr>
                 <InPreFix>IndicadorPreFixado</InPreFix>
-                DtVnctUltPcl            DataVencimentoUltimaParcela     Atributo        [0..1]
-                VlCtrdFut               ValorContratadoFuturo           Atributo        [0..1]
-                QtPcl                   QuantidadeParcelas              Atributo        [0..1]
-            </DetOpr>FIM            DetalheOperacao                 Tag             [0..1]
-            <PclAnt>                ParcelaAnterior                 Tag             [0..n]
-                DtVnctPclAnt            DataVencimento                  Atributo        [0..1]
-                VlPclAnt                Valor                           Atributo        [0..1]
-                <PgtoPclAnt>            PagamentoParcelaAnterior        Tag             [0..n]
-                    DtPgtoPclAnt            DataPagamento                   Atributo        [0..1]
-                    VlPgtoPclAnt            ValorPagamento                  Atributo        [0..1]
-                </PgtoPclAnt>           PagamentoParcelaAnterior        Tag             [0..n]
-            </PclAnt>FIM            ParcelaAnterior                 Tag             [0..n]
-            <PclFut>                ParcelasFuturas                 Tag             [0..n]
-                DtVnctPrxPcl            DataVencimentoProximaParcela    Atributo        [0..1]
-                VlPrxPcl                ValorProximaParcela             Atributo        [0..1]
-                QtPclVncr               QuantidadeParcelasAVencer       Atributo        [0..1]
-                QtPclPgr                QuantidadeParcelasAPagar        Atributo        [0..1]
-            </PclFut>FIM            ParcelasFuturas                 Tag             [0..n]
-        </Opr>FIM               Operacao                        Tag             [0..n]
-    </Cli>FIM               Cliente                         Tag             [0..n]
-</EnvoHstCrd>FIM         EnvioHistoricoCredito           Tag             [1..1]
+                <DtVnctUltPcl>DataVencimentoUltimaParcela</DtVnctUltPcl>
+                <VlCtrdFut>ValorContratadoFuturo</VlCtrdFut>
+                <QtPcl>QuantidadeParcelas</QtPcl>
+            </DetOpr>
+            <PclAnt>
+                <DtVnctPclAnt>DataVencimento</DtVnctPclAnt>
+                <VlPclAnt>Valor</VlPclAnt>
+                <PgtoPclAnt>
+                    <DtPgtoPclAnt>DataPagamento</DtPgtoPclAnt>
+                    <VlPgtoPclAnt>ValorPagamento</VlPgtoPclAnt>
+                </PgtoPclAnt>
+            </PclAnt>
+            <PclFut>
+                <DtVnctPrxPcl>DataVencimentoProximaParcela</DtVnctPrxPcl>
+                <VlPrxPcl>ValorProximaParcela</VlPrxPcl>
+                <QtPclVncr>QuantidadeParcelasAVencer</QtPclVncr>
+                <QtPclPgr>QuantidadeParcelasAPagar</QtPclPgr>
+            </PclFut>
+        </Opr>
+    </Cli>
+</EnvoHstCrd>
