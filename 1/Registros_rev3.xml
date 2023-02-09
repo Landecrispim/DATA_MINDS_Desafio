@@ -1,7 +1,7 @@
-
+<?xml version="1.0"?>
 <EnvoHstCrd>            
     <CnpjIf>Cnpj da Fonte</CnpjIf>
-    <DtRms>DataRemessa<DtRms/>
+    <DtRms>DataRemessa</DtRms>
     <Cli>
         <IdfcCli>Identificacao</IdfcCli>
         <Opr>
@@ -15,7 +15,7 @@
                 <VlCtrdFut>30000.00</VlCtrdFut>
                 <QtPcl>25</QtPcl>
             </DetOpr>
-            <PclAnt id=1> <!--id = numero da parcela -->
+            <PclAnt>
                 <DtVnctPclAnt>10.02.2019</DtVnctPclAnt>
                 <VlPclAnt>1200.00</VlPclAnt>
                 <PgtoPclAnt>
