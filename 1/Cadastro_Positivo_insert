@@ -6,6 +6,10 @@ INSERT INTO public.cliente(
 	idfccli, enviohistoricocredito_cnpjif)
 	VALUES (?, ?);
 
+INSERT INTO public.operacao(
+	nrunco, cliente_idfccli, dtctrc, dtaprc, cdmdld)
+	VALUES (?, ?, ?, ?, ?);
+
 INSERT INTO public.detalheoperacao(
 	operacao_nrunco, inprefix, dtvnctultpcl, vlctrdfut, qtpcl)
 	VALUES (?, ?, ?, ?, ?);
