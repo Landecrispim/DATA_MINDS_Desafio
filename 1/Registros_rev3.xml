@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <EnvoHstCrd>            
     <CnpjIf>CnpjdaFonte</CnpjIf>
-    <DtRms>DataRemessa</DtRms>
+    <DtRms>20.03.2023</DtRms>
     <Cli>
         <IdfcCli>Identificacao</IdfcCli>
         <Opr>
