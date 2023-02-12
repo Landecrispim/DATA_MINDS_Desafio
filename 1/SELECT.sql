@@ -6,6 +6,8 @@ SELECT * FROM operacao;
 
 SELECT * FROM detalheoperacao;
 
+SELECT * FROM parcelaanterior;
+
 
 
 --DELETE FROM enviohistoricocredito;
