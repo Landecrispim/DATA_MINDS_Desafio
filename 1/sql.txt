@@ -1,5 +1,12 @@
-SELECT * FROM enviohistoricocredito;
+--SELECT * FROM enviohistoricocredito;
 
-SELECT * FROM cliente;
+--SELECT * FROM cliente;
 
-SELECT * FROM operacao;
+--SELECT * FROM operacao;
+
+
+DELETE FROM enviohistoricocredito;
+
+DELETE FROM cliente;
+
+DELETE FROM operacao;
