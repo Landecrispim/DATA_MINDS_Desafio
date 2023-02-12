@@ -1,0 +1,5 @@
+SELECT * FROM enviohistoricocredito;
+
+SELECT * FROM cliente;
+
+SELECT * FROM operacao;
