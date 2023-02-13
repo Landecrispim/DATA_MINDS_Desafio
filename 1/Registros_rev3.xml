@@ -1,11 +1,11 @@
 <?xml version="1.0"?>
 <EnvoHstCrd>            
-    <CnpjIf>CnpjdaFonte</CnpjIf>
+    <CnpjIf>CnpjdaFont1</CnpjIf>
     <DtRms>20.03.2023</DtRms>
     <Cli>
         <IdfcCli>CLIENTE01</IdfcCli>
         <Opr>
-            <NrUnco>NumeroUnic</NrUnco>
+            <NrUnco>NumeroUni1</NrUnco>
             <DtCtrc>10.01.2019</DtCtrc>
             <DtAprc>11.01.2019</DtAprc>
             <CdMdld>Modalidade</CdMdld>
@@ -27,7 +27,40 @@
                 <DtVnctPrxPcl>10.03.2019</DtVnctPrxPcl>
                 <VlPrxPcl>1200.00</VlPrxPcl>
                 <QtPclVncr>24</QtPclVncr>
-                <QtPclPgr>QuantidadeParcelasAPagar</QtPclPgr>
+                <QtPclPgr>12</QtPclPgr>
+            </PclFut>
+        </Opr>
+    </Cli>
+    <Cli>
+        <IdfcCli>CLIENTE02</IdfcCli>
+        <Opr>
+            <NrUnco>NumeroUni2</NrUnco>
+            <DtCtrc>10.01.2019</DtCtrc>
+            <DtAprc>11.01.2019</DtAprc>
+            <CdMdld>Modalidade</CdMdld>
+            <DetOpr>
+                <InPreFix>true</InPreFix>
+                <DtVnctUltPcl>10.02.2021</DtVnctUltPcl>
+                <VlCtrdFut>30000.00</VlCtrdFut>
+                <QtPcl>25</QtPcl>
+            </DetOpr>
+            <PclAnt>
+                <DtVnctPclAnt>10.02.2019</DtVnctPclAnt>
+                <VlPclAnt>1200.00</VlPclAnt>
+                <PgtoPclAnt>
+                    <DtPgtoPclAnt>09.02.2019</DtPgtoPclAnt>
+                    <VlPgtoPclAnt>1200.00</VlPgtoPclAnt>
+                </PgtoPclAnt>
+                <PgtoPclAnt>
+                    <DtPgtoPclAnt>11.02.2019</DtPgtoPclAnt>
+                    <VlPgtoPclAnt>1200.00</VlPgtoPclAnt>
+                </PgtoPclAnt>
+            </PclAnt>
+            <PclFut>
+                <DtVnctPrxPcl>10.03.2019</DtVnctPrxPcl>
+                <VlPrxPcl>1200.00</VlPrxPcl>
+                <QtPclVncr>24</QtPclVncr>
+                <QtPclPgr>12</QtPclPgr>
             </PclFut>
         </Opr>
     </Cli>

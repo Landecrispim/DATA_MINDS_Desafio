@@ -8,7 +8,9 @@ SELECT * FROM detalheoperacao;
 
 SELECT * FROM parcelaanterior;
 
+SELECT * FROM pagamentoparcelaanterior;
 
+SELECT * FROM parcelasfuturas;
 
 --DELETE FROM enviohistoricocredito;
 
@@ -18,3 +20,4 @@ SELECT * FROM parcelaanterior;
 
 --DELETE FROM operacao;
 
+SELECT MAX(index) from parcelaanterior;
